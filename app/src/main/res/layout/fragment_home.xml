@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnCategory1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@android:color/transparent"
+                    android:textSize="25sp"
+                    android:textColor="?android:textColorPrimary"
+                    android:textAlignment="textStart"
+                    android:textStyle="normal"
+                    android:text="Trending Products >"/>
+
+                    <HorizontalScrollView
+                        android:id="@+id/cagegory1HorizontalView"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:fillViewport="true">
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:layout_width="750dp"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <GridView
+                                    android:id="@+id/Category1Items"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="4dp"
+                                    android:columnWidth="150dp"
+                                    android:numColumns="5"
+                                    android:horizontalSpacing="1dp"
+                                    android:scrollbarAlwaysDrawHorizontalTrack="true"
+                                    android:scrollbarAlwaysDrawVerticalTrack="true"
+                                    android:scrollbars="horizontal"
+                                    android:stretchMode="none"
+                                    android:verticalSpacing="1dp">
+
+                                </GridView>
+                            </LinearLayout>
+                        </FrameLayout>
+
+                    </HorizontalScrollView>
+
+                <Button
+                    android:id="@+id/btnCategory2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@android:color/transparent"
+                    android:textSize="25sp"
+                    android:textColor="?android:textColorPrimary"
+                    android:textAlignment="textStart"
+                    android:textStyle="normal"
+                    android:text="Food Products>"/>
+
+
+                <HorizontalScrollView
+                    android:id="@+id/cagegory2HorizontalView"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:fillViewport="true">
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="750dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <GridView
+                                android:id="@+id/Category2Items"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="4dp"
+                                android:columnWidth="150dp"
+                                android:numColumns="5"
+                                android:horizontalSpacing="1dp"
+                                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                                android:scrollbarAlwaysDrawVerticalTrack="true"
+                                android:scrollbars="horizontal"
+                                android:stretchMode="none"
+                                android:verticalSpacing="1dp">
+
+                            </GridView>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                </HorizontalScrollView>
+
+                <Button
+                    android:id="@+id/btnCategory3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@android:color/transparent"
+                    android:textSize="25sp"
+                    android:textColor="?android:textColorPrimary"
+                    android:textAlignment="textStart"
+                    android:textStyle="normal"
+                    android:text="Dairy products >"/>
+
+                <HorizontalScrollView
+                    android:id="@+id/cagegory3HorizontalView"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:fillViewport="true">
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="750dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <GridView
+                                android:id="@+id/Category3Items"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_margin="4dp"
+                                android:columnWidth="150dp"
+                                android:numColumns="5"
+                                android:horizontalSpacing="1dp"
+                                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                                android:scrollbarAlwaysDrawVerticalTrack="true"
+                                android:scrollbars="horizontal"
+                                android:stretchMode="none"
+                                android:verticalSpacing="1dp">
+
+                            </GridView>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                </HorizontalScrollView>
+
+                <Button
+                    android:id="@+id/btnCategory4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@android:color/transparent"
+                    android:textSize="25sp"
+                    android:textColor="?android:textColorPrimary"
+                    android:textAlignment="textStart"
+                    android:textStyle="normal"
+                    android:text="Beverage >"/>
+
+                <HorizontalScrollView
+                    android:id="@+id/cagegory4HorizontalView"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:fillViewport="true">
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="750dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <GridView
+                                android:id="@+id/Category4Items"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="4dp"
+                                android:columnWidth="150dp"
+                                android:numColumns="5"
+                                android:horizontalSpacing="1dp"
+                                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                                android:scrollbarAlwaysDrawVerticalTrack="true"
+                                android:scrollbars="horizontal"
+                                android:stretchMode="none"
+                                android:verticalSpacing="1dp">
+
+                            </GridView>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                </HorizontalScrollView>
+
+                <Button
+                    android:id="@+id/btnCategory5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@android:color/transparent"
+                    android:textSize="25sp"
+                    android:textColor="?android:textColorPrimary"
+                    android:textAlignment="textStart"
+                    android:textStyle="normal"
+                    android:text="Silverware Products >"/>
+
+                <HorizontalScrollView
+                    android:id="@+id/cagegory5HorizontalView"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:fillViewport="true">
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="750dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <GridView
+                                android:id="@+id/Category5Items"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="4dp"
+                                android:columnWidth="150dp"
+                                android:numColumns="5"
+                                android:horizontalSpacing="1dp"
+                                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                                android:scrollbarAlwaysDrawVerticalTrack="true"
+                                android:scrollbars="horizontal"
+                                android:stretchMode="none"
+                                android:verticalSpacing="1dp">
+
+                            </GridView>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                </HorizontalScrollView>
+
+                <Button
+                    android:id="@+id/btnCategory6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@android:color/transparent"
+                    android:textSize="25sp"
+                    android:textColor="?android:textColorPrimary"
+                    android:textAlignment="textStart"
+                    android:textStyle="normal"
+                    android:text="Cleaning Products >"/>
+
+                <HorizontalScrollView
+                    android:id="@+id/cagegory6HorizontalView"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:fillViewport="true">
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="750dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <GridView
+                                android:id="@+id/Category6Items"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="4dp"
+                                android:columnWidth="150dp"
+                                android:numColumns="5"
+                                android:horizontalSpacing="1dp"
+                                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                                android:scrollbarAlwaysDrawVerticalTrack="true"
+                                android:scrollbars="horizontal"
+                                android:stretchMode="none"
+                                android:verticalSpacing="1dp">
+
+                            </GridView>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+        </ScrollView>
+</RelativeLayout>
+
+
+
+

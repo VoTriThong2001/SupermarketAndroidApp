@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/textCategory1_ItemPhoto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"/>
+<TextView
+    android:id="@+id/textCategory1_ItemName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="?android:textColorPrimary"
+    android:layout_marginEnd="10dp"
+    android:textStyle="bold"
+    android:textSize="25sp"
+    android:singleLine="true">
+</TextView>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textCategory1_ItemPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?android:textColorPrimary"
+            android:layout_marginEnd="4dp"
+            android:textSize="25sp">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="25sp"
+            android:text="đ">
+        </TextView>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textCategory1_ItemBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?android:textColorPrimary"
+        android:layout_marginEnd="10dp"
+        android:singleLine="true"
+        android:textSize="25sp">
+    </TextView>
+
+    <TextView
+    android:id="@+id/textCategory1_ItemLoc"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="?android:textColorPrimary"
+    android:layout_marginEnd="10dp"
+    android:textSize="25sp">
+    </TextView>
+
+</LinearLayout>

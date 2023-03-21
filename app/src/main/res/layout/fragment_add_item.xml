@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:minWidth="500dp">
+
+    <TextView
+        android:id="@+id/itemName"
+        android:text="@string/ItemName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/txtAddItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/itemPrice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/ItemPrice"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/txtAddItemPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/itemLoc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/ItemLocation"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/txtAddItemLoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/itemBrand"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/ItemBrand"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/txtAddItemBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/itemAmount"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/ItemAmount"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/txtAddItemAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/menuGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/MenuGroup"
+        android:textSize="25sp" />
+
+    <Spinner
+        android:id="@+id/spinnerMenuGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:minWidth="500dp"
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:id="@+id/btnAddItem_Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textSize="25sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnAddItem_Confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Add Item"
+            android:textSize="25sp">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

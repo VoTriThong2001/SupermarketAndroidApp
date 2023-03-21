@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Supermarket</string>
+    <string name="title_activity_user">User</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_nav">Nav</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_category3">Category3</string>
+    <string name="ItemName">Item name:</string>
+    <string name="ItemPrice">Item price:</string>
+    <string name="ItemLocation">Item location:</string>
+    <string name="ItemBrand">Item brand:</string>
+    <string name="ItemAmount">Item amount:</string>
+    <string name="MenuGroup">Menu group:</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear_fields">Clear fields</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="cart_id">Cart ID:</string>
+    <string name="item_amount">Item amount:</string>
+    <string name="item_s_price">Item\'s price:</string>
+</resources>
